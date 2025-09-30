@@ -1,0 +1,140 @@
+
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
+}
+
+Sum of Two Numbers
+java
+CopyEdit
+public class SumTwoNumbers {
+public static void main(String[] args) {
+int a = 10, b = 20;
+int sum = a + b;
+System.out.println("Sum: " + sum);
+}
+}
+
+Simple Calculator (Addition, Subtraction, Multiplication, Division)
+java
+CopyEdit
+public class SimpleCalculator {
+public static void main(String[] args) {
+int a = 20, b = 10;
+System.out.println("Addition: " + (a + b));
+System.out.println("Subtraction: " + (a - b));
+System.out.println("Multiplication: " + (a * b));
+System.out.println("Division: " + (a / b));
+}
+}
+
+Check Even or Odd
+java
+CopyEdit
+public class EvenOdd {
+public static void main(String[] args) {
+int num = 7;
+if (num % 2 == 0)
+System.out.println(num + " is Even");
+else
+System.out.println(num + " is Odd");
+}
+}
+
+RV Vidyaniketan, 8th Mile, Mysuru Road, Bengaluru – 560059, India
+
+Ph: +91 80 68199900 I www.rvu.edu.in
+
+Factorial of a Number (Using Loop)
+java
+CopyEdit
+public class Factorial {
+public static void main(String[] args) {
+int n = 5;
+int fact = 1;
+for (int i = 1; i <= n; i++) {
+fact *= i;
+}
+System.out.println("Factorial: " + fact);
+}
+}
+Check Prime Number
+java
+CopyEdit
+public class PrimeCheck {
+public static void main(String[] args) {
+int num = 29;
+boolean isPrime = true;
+for (int i = 2; i <= num / 2; i++) {
+if (num % i == 0) {
+isPrime = false;
+break;
+}
+}
+if (isPrime)
+System.out.println(num + " is a Prime Number");
+else
+System.out.println(num + " is not a Prime Number");
+}
+}
+Fibonacci Series (First 10 Numbers)
+java
+CopyEdit
+public class Fibonacci {
+public static void main(String[] args) {
+int n1 = 0, n2 = 1, n3;
+System.out.print(n1 + " " + n2);
+for (int i = 2; i < 10; i++) {
+n3 = n1 + n2;
+System.out.print(" " + n3);
+n1 = n2;
+n2 = n3;
+}
+}
+}
+
+RV Vidyaniketan, 8th Mile, Mysuru Road, Bengaluru – 560059, India
+
+Ph: +91 80 68199900 I www.rvu.edu.in
+
+Sum of Array Elements
+java
+CopyEdit
+public class ArraySum {
+public static void main(String[] args) {
+int[] arr = {1, 2, 3, 4, 5};
+int sum = 0;
+for (int i = 0; i < arr.length; i++) {
+sum += arr[i];
+}
+System.out.println("Sum of array elements: " + sum);
+}
+}
+
+Reverse a String
+java
+CopyEdit
+public class ReverseString {
+public static void main(String[] args) {
+String str = "Java";
+String reversed = "";
+for (int i = str.length() - 1; i >= 0; i--) {
+reversed += str.charAt(i);
+}
+System.out.println("Reversed String: " + reversed);
+}
+}
+
+Find Maximum in an Array
+java
+CopyEdit
+public class MaxArray {
+public static void main(String[] args) {
+int[] arr = {5, 10, 20, 8, 15};
+int max = arr[0];
+for (int i = 1; i < arr.length; i++) {
+if (arr[i] > max)
+max = arr[i];
+}
+System.out.println("Maximum element: " + max);
