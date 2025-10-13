@@ -1,0 +1,29 @@
+class 
+properties of oops 
+-encapsulation 
+-polymorphism 
+-inheritance
+-abstract class
+
+ encapsulation 
+combining data as well as data operation in one place 
+*it is implemented by class 
+*class -- data 
+           --operations   = members 
+#you need multiple class to operate multiple objects 
+1) data / variables / data members 
+
+2) operations / methods 
+ class strucutre 
+- Fields (instance variables )
+#how to create refer ppt 
+*the class names should start from caps 
+{ -> start block 
+
+acces specficers (there are also keywords ) #to remeber 3p's
+-public 
+-private 
+-protected 
+-no acces specfire(Not defined )
+
+
